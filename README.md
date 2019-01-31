@@ -29,11 +29,11 @@
 
 * 会了点51，总得要搞点什么
     - 迷你通用版51最小系统
-        + ![迷你通用版51最小系统](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索%EF%BC%88大一上%EF%BC%89/IMG_20131205_172044.jpg)
+        + ![迷你通用版51最小系统](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/IMG_20131205_172044.jpg)
     - 摇摇棒
-        + ![摇摇棒](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索%EF%BC%88大一上%EF%BC%89/IMG_20131205_172146.jpg)
+        + ![摇摇棒](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/IMG_20131205_172146.jpg)
     - 自动巡线小车
-        + ![自动巡线小车](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索%EF%BC%88大一上%EF%BC%89/微信图片_201901312159566.jpg)
+        + ![自动巡线小车](https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/微信图片_201901312159566.jpg)
 
 
 -----------------------------------------
