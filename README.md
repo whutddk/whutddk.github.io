@@ -17,6 +17,9 @@
 * 2017.07-至今 湖北华中科技大学-控制科学与工程 （保研在读-硕士）
 * 
 
+### 研究方向
+* 本科： 自动控制，工业控制，嵌入式硬件及底层
+* 硕士： 软硬件协同设计，IC前端
 
 
 ---------------------------------------
@@ -35,7 +38,7 @@
 * 拼命榨干了51单片机的资源，虽已经历很多全国赛事，至今很为这段代码骄傲。
 * 方案
     - 颜色控制
-        + 使用三色雾状灯冒LED，共阴引脚。
+        + 使用三色雾状灯帽LED，共阴引脚。
         + 当时pwm控制颜色的技术不是很成熟，也尝试过了，最终采用I2C控制下的DAC（***TLC5620）***控制颜色的方案：将64个灯的红色阳极接在一起，接到DAC的*chn0*；将64个灯的绿色阳极接在一起，接到DAC的*chn1*；将64个灯的蓝色阳极接在一起，接到DAC的*chn2*
         + 通过控制DAC的输出电压，分别控制每个灯的颜色。
     - 图案控制
@@ -49,7 +52,7 @@
             * 刷新颜色，消隐
             * 保持图片，换图
     - 刷图大致流程
-
+        >
         > for (imageCnt = 0 ;imageCnt < ? ;imageCnt ++):
         > 
         >       for (imageDelayCnt = 0;imageDelayCnt < ? ; imageDelayCnt ++ ):
@@ -71,7 +74,6 @@
 * Wentao Sun
 * Ruige Lee
 
----------------------------------------------------------------
 
 #### 风火轮（第一名）
 * 做完摇摇棒，就想到了把摇摇棒安装在自行车的车轮上，网上搜，还真有
@@ -89,15 +91,15 @@
 * 风火轮原型
     - ![风火轮原型](https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595610.jpg)
 * 风火轮成品
-    -　![风火轮成品](https://github.com/whutddk/LED256/blob/master/pic/IMG_20140502_124040.jpg)
-*　风火轮效果
-    -　![风火轮效果](https://github.com/whutddk/LED256/blob/master/pic/IMG_20140207_230420_SHOT2SHOT20.jpg)
+    - ![风火轮成品](https://github.com/whutddk/LED256/blob/master/pic/IMG_20140502_124040.jpg)
+* 风火轮效果
+    - ![风火轮效果](https://github.com/whutddk/LED256/blob/master/pic/IMG_20140207_230420_SHOT2SHOT20.jpg)
 * 真彩点阵原型
-    -　![真彩点阵原型](https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595616.jpg)
+    - ![真彩点阵原型](https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595616.jpg)
 * 真彩点阵成品
-    -　![真彩点阵成品](https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595619.jpg)
+    - ![真彩点阵成品](https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595619.jpg)
 * 真彩点阵效果
-    -　![真彩点阵效果](https://github.com/whutddk/LED256/blob/master/pic/2014_10_11_22_08_57.jpg)
+    - ![真彩点阵效果](https://github.com/whutddk/LED256/blob/master/pic/2014_10_11_22_08_57.jpg)
 
 #### 视频
 * 请参考作品视频链接，视频看起来不那么鲜艳
