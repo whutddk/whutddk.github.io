@@ -7,7 +7,9 @@
 
 * 李锐戈
 * E-mail: 295054118@qq.com
-
+* 个人主页：https://github.com/whutddk
+* 学校工作主页1：https://gitee.com/whutddk
+* 学校工作主页2：https://gitee.com/RGLEE
 ### 学习经历
 * 2010.09-2013.08 广东梅县东山中学（高中）
 * 2013.09-2017.06 湖北武汉理工大学-自动化卓越工程师专业（学士）
