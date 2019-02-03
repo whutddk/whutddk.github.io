@@ -30,6 +30,37 @@
 
 --------------------------------
 
+### [天际2015（大二飞思卡尔智能车）](https://github.com/whutddk/TJ2015)
+
+* [仓库链接](https://github.com/whutddk/TJ2015)
+
+* 最早介入保研相关比赛是飞思卡尔智能车
+* 从大一下期末开始跟着蓝宙的淘宝店，买板子，跑例程
+* 觉得自己不适合搞光学组
+    - 学长说光学被干扰很严重
+    - 实力很强的学长都在摄像头组
+    - 那年赛道改革，不用KT板，改用PVC，没有钱买标准赛道，电磁比较容易。。。
+* 参加电磁双车组，基于鉴湖实验室的平台
+    - 情况有多惨，鉴湖612的地板，贴的胶带痕迹就是当年的调车赛道
+    - 大二水平有限，被学长实力碾压，止步校赛
+
+#### 图片
+
+* 当时的调车赛道
+    - ![当时的调车赛道](https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_201901312200229.jpg)
+* 原型设计
+    - ![原型设计](https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_2019013121595710.jpg)
+* 赛前版本
+    - ![赛前版本](https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_2019013121595728.jpg)
+
+#### Contributors
+* Ruige Lee
+* Jialong Wang (学弟)
+* Fuping Wang 
+* Guangpeng Li
+
+--------------------------------
+
 ### [自动化学院流水灯大赛（大一下）](https://github.com/whutddk/LED256)
 * [仓库链接](https://github.com/whutddk/LED256)
 * 大一下学期，学院、科协举办第一届流水灯大赛（搞了两年觉得太简单，就不搞流水灯改搞循迹车了（初级赛））
@@ -70,7 +101,7 @@
         >               DAC set color (0,0,0)
         >           
 
-##### Contributors
+#### Contributors
 * Xiangjie Wu
 * Songhuan Huang
 * Wentao Sun
@@ -84,7 +115,7 @@
 
 * [申请了实用新型专利](http://www.wanfangdata.com.cn/details/detail.do?_type=patent&id=CN201620157427.7)
 
-##### Contributors
+#### Contributors
 * Pu Liu
 * Zong Yang
 * Ruige Lee
