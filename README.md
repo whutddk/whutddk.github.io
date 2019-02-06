@@ -102,6 +102,36 @@
   - Rong Huang（学弟）
   - Jiawei Yuan
 
+---------------------------------
+
+### 2016电子设计省赛
+
+* 2016是省赛年，做满也是省特，而且省特限制名额，所以没有那么重视
+* 将自己的中心放在智能车赛上
+* 省赛的重点为，保稳定，带学弟，保证学弟能保研
+* 获得控制组省一
+
+
+#### 内容
+* PSP嵌入式上位机解决方案
+    - [仓库链接](https://github.com/whutddk/beacon-PSP)
+* 倒立摆
+    - 理论指导下的二刷
+* TM4C123解决方案
+    - [仓库链接](https://github.com/whutddk/2016TiCupTM4/tree/master)
+* 平板控制系统（校复赛）
+* 水温控制系统模糊控制（校初赛）
+* 基于LDC1314的金属丝引导电动车（省赛）
+
+#### 图片
+![合照](https://github.com/whutddk/My-WUT/blob/master/2016电子设计省赛/doc/mmexport1501921922721.jpg)
+
+#### Contributors
+* Ruige Lee
+* Rong Huang（学弟）
+* Jialong Wang（学弟）
+
+
 --------------------------------
 
 ### 2015 全国大学生电子设计大赛 （大二）
