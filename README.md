@@ -30,9 +30,9 @@
 
 
 
-### [2016年恩智浦杯全国大学生智能汽车大赛（大三）](git@github.com:whutddk/2016_NXP_ChenFeng.git)
+### [2016年恩智浦杯全国大学生智能汽车大赛（大三）](https://github.com/whutddk/2016_nxp_chenfeng)
 
-* [仓库链接](git@github.com:whutddk/2016_NXP_ChenFeng.git)
+* [仓库链接](https://github.com/whutddk/2016_nxp_chenfeng)
 * 有了前一年参赛的经验，更有了资金和赛道，一切就变得特别顺利
 * 加入汽车学院参加比赛
 * 参与其中的电轨竞速组和电轨节能组，拿下两个全国一等奖
