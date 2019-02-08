@@ -28,7 +28,44 @@
 
 ## 项目（倒叙）
 
+### 基于zynq-7000的伺服控制系统（本科毕业设计）
+* 使用zedborad（Cortex-A9(Arm) + Artix-7（FPGA））控制永磁同步电机（PMSM）
+* 使用Vivado HLS高层次综合技术完成Park Clark变换
+* 手动写状态机，verilog实现I2C协议电流采样芯片的驱动IP
+* 效果
+    - 可以控制PMSM旋转，粗略调速
 
+* 局限
+    - 项目提出的逻辑错误：是为了学习软硬件协同设计而控制PMSM，不符合根据需求选解决方案的项目逻辑
+    - 当时对这类设计方法没有经验：HLS的使用仅仅是因为当时不会写变换的ip，没有正确地时序控制，或者说当时就没这个概念
+    - 对PMSM控制，对电流环的控制都没有经验，控制周期不对，采样芯片选型失败，控制指标惨不忍睹
+
+* 突破
+    - 第一次FPGA设计类的项目尝试
+    - 接触了电流环，知道了厉害，成功引导后面学弟比赛不再采坑
+    - 尝试了一直没机会碰过的PCB隔离，三相MOS驱动
+
+* 结果
+    - 答辩勉强拿到优秀
+
+#### 图片
+
+![系统图](https://github.com/whutddk/My-WUT/blob/master/毕业设计/doc/微信图片_2019013122002213.jpg)
+
+#### 视频
+[视频](https://github.com/whutddk/My-WUT/blob/master/毕业设计/doc/trimed_1488445829179.mp4)
+
+---------------
+
+### [SMATG（大四上）](https://github.com/whutddk/smatg)
+* [仓库链接](https://github.com/whutddk/smatg)
+* 自己想的AR智能眼镜项目
+* 技术关键词
+    - opencv:人脸检测，人脸识别
+    - respriberry Pi
+    - AR
+
+---------------------------
 
 ### [2016年恩智浦杯全国大学生智能汽车大赛（大三）](https://github.com/whutddk/2016_nxp_chenfeng)
 
