@@ -21,18 +21,85 @@
 
 ### 研究方向
 * 本科： 自动控制，工业控制，嵌入式硬件及底层
-* 硕士： 软硬件协同设计，IC前端
+* 硕士： 软硬件协同设计，IC前端,Risc-V
 
 
 ---------------------------------------
 
 ## 项目（倒叙）
 
+### [多自由度机器人运动规划设计与实现（研究生毕业设计）（进行中）](https://github.com/whutddk/PRM_robotic_arm)
+* [主仓库链接](https://github.com/whutddk/PRM_robotic_arm)
+* 子仓库链接参考主仓库master提交
+* 保密问题，暂时为私有仓库
+
+-------------------------
+
+### [Risc-V（研二~研三）（进行中）](https://github.com/whutddk/valueRisk)
+* [仓库链接](https://github.com/whutddk/valueRisk)
+
+-----------------------------------------------------
+
+### [鹰击432-PS-PL（研二）（进行中）](https://github.com/whutddk/YJ432-PL-PS)
+* [仓库链接](https://github.com/whutddk/YJ432-PL-PS)
+* 基于通用平台的最后版本YJ435，开发Arm+FPGA的底层支持和demo
+* Arm
+    - NXP-MK64 (BGA144)
+    - 底层：强制要求使用mbed-os
+* FPGA
+    - xilinx-Artix-7 （符合封装任意型号，推荐XC7A35T）
+* 总线
+    - flexbus
+
+
+--------------------------------------------------
+
+### [2018 Synopsys ARC®杯电子设计竞赛——基于Arc EM的网络收音机（研一下）](https://github.com/whutddk/iRhythm)
+* [个人仓库链接](https://github.com/whutddk/iRhythm)
+* [pull request 提交仓库链接](https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_applications)
+
+* 需求
+    - 基于ARC EM Starter Kit（主频25MHz）
+    - 实现功能
+        + 实时mp3解码并播放
+        + 实时爬虫从网上抓取音乐
+        + 实时FFT变换，OLED显示频谱，点阵打频谱
+* 技术
+    - 加速
+        + DSP指令
+        + 内联汇编优化关键代码，提升存储效率
+        + 关键代码及变量移动到紧耦合存储器中（ICCM DCCM）
+    - 爬虫
+        + 抓取百度FM
+        + 使用ESP8266的串口，AT指令，开超高波特率
+    - 调度
+        + RTOS 三任务
+        + 串口接收中断
+        + 不支持串口流控
+
+#### Contributors
+* Ruige Lee
+* Xi Wu
+* Zhipeng Ma
+
+---------------------------------
+
+### [通用平台(研一)](https://github.com/whutddk/MK64F-platform)
+
+* [仓库链接](https://github.com/whutddk/MK64F-platform)
+* 需求
+    - 华科需要一款类似Arduino的开源硬件平台
+    - 基于NXP-kinetis 系列（MK64FX）Cortex-M4
+    - 采用板级Arm+FPGA架构
+    - 兼容本科教学及研究生学习Soc之前的（Arm+FPGA）架构的认知
+
+-------------------------------
+
 ### 基于python的爬虫（大四~研一）
 
 * 仓库链接（包含隐私数据，私有权限）
 
-### 功能
+#### 功能
 * 随机爬喜马拉雅音频资源，解析下载其中的音乐
     - 喜马拉雅资源是不加密的
 * 爬好友QQ空间
