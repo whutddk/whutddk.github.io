@@ -293,6 +293,7 @@
 
 #### 图片
 ![合照](https://github.com/whutddk/My-WUT/blob/master/2016电子设计省赛/doc/mmexport1501921922721.jpg)
+![大四那年暑假观战两学弟的智能车赛](https://github.com/whutddk/My-WUT/blob/master/2016电子设计省赛/doc/DJI_0159.JPG)
 
 #### Contributors
 * Ruige Lee
