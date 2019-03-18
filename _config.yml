@@ -1,6 +1,6 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 10 # pagination based on number of posts
+paginate: 50 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
@@ -25,7 +25,7 @@ author:
   pinterest: 
   linkedin: 
   bio: 
-  email_md5: 77d28e9e13dda12ad6dca04d2bd9c4f0
+  email_md5: e53fc919a634054bdcefdce9f615c909
 
 rss_path: 
 categories_path: categories.html
