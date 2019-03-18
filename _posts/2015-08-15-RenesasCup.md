@@ -10,8 +10,6 @@ comments: false
 
 
 
-### 2015 全国大学生电子设计大赛 （大二）
-
 * 比赛题目是[风力摆控制系统](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/风力摆控制系统(B题).pdf)
 * 赛前一年进行了大量的赛题练习
     - 旋转倒立摆控制（13年国赛题）
