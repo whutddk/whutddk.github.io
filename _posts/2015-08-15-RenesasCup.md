@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2015 全国大学生电子设计大赛 （大二）
-categories: [2015 全国大学生电子设计大赛]
+categories: [大二]
 tags: [RenesasCup]
 fullview: false
 comments: false

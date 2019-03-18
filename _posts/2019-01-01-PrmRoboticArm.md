@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 多自由度机器人运动规划设计与实现（研究生毕业设计）（进行中）
-categories: [多自由度机器人运动规划设计与实现]
+categories: [研三]
 tags: [毕业设计]
 fullview: false
 comments: false
