@@ -1,0 +1,754 @@
+
+<h2 id="项目倒叙">项目（倒叙）</h2>
+
+<h3 id="多自由度机器人运动规划设计与实现研究生毕业设计进行中"><a href="https://github.com/whutddk/PRM_robotic_arm">多自由度机器人运动规划设计与实现（研究生毕业设计）（进行中）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/PRM_robotic_arm">主仓库链接</a></li>
+  <li>子仓库链接参考主仓库master提交</li>
+  <li>保密问题，暂时为私有仓库</li>
+</ul>
+
+<hr />
+
+<h3 id="risc-v研二研三进行中"><a href="https://github.com/whutddk/valueRisk">Risc-V（研二~研三）（进行中）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/valueRisk">仓库链接</a></li>
+</ul>
+
+<hr />
+
+<h3 id="鹰击432-ps-pl研二进行中"><a href="https://github.com/whutddk/YJ432-PL-PS">鹰击432-PS-PL（研二）（进行中）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/YJ432-PL-PS">仓库链接</a></li>
+  <li>基于通用平台的最后版本YJ435，开发Arm+FPGA的底层支持和demo</li>
+  <li>Arm
+    <ul>
+      <li>NXP-MK64 (BGA144)</li>
+      <li>底层：强制要求使用mbed-os</li>
+    </ul>
+  </li>
+  <li>FPGA
+    <ul>
+      <li>xilinx-Artix-7 （符合封装任意型号，推荐XC7A35T）</li>
+    </ul>
+  </li>
+  <li>总线
+    <ul>
+      <li>flexbus</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="2018-synopsys-arc杯电子设计竞赛基于arc-em的网络收音机研一下"><a href="https://github.com/whutddk/iRhythm">2018 Synopsys ARC®杯电子设计竞赛——基于Arc EM的网络收音机（研一下）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/iRhythm">个人仓库链接</a></li>
+  <li>
+    <p><a href="https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_applications">pull request 提交仓库链接</a></p>
+  </li>
+  <li>需求
+    <ul>
+      <li>基于ARC EM Starter Kit（主频25MHz）</li>
+      <li>实现功能
+        <ul>
+          <li>实时mp3解码并播放</li>
+          <li>实时爬虫从网上抓取音乐</li>
+          <li>实时FFT变换，OLED显示频谱，点阵打频谱</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>技术
+    <ul>
+      <li>加速
+        <ul>
+          <li>DSP指令</li>
+          <li>内联汇编优化关键代码，提升存储效率</li>
+          <li>关键代码及变量移动到紧耦合存储器中（ICCM DCCM）</li>
+        </ul>
+      </li>
+      <li>爬虫
+        <ul>
+          <li>抓取百度FM</li>
+          <li>使用ESP8266的串口，AT指令，开超高波特率</li>
+        </ul>
+      </li>
+      <li>调度
+        <ul>
+          <li>RTOS 三任务</li>
+          <li>串口接收中断</li>
+          <li>不支持串口流控</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="contributors">Contributors</h4>
+<ul>
+  <li>Ruige Lee</li>
+  <li>Xi Wu</li>
+  <li>Zhipeng Ma</li>
+</ul>
+
+<hr />
+
+<h3 id="通用平台研一"><a href="https://github.com/whutddk/MK64F-platform">通用平台(研一)</a></h3>
+
+<ul>
+  <li><a href="https://github.com/whutddk/MK64F-platform">仓库链接</a></li>
+  <li>需求
+    <ul>
+      <li>华科需要一款类似Arduino的开源硬件平台</li>
+      <li>基于NXP-kinetis 系列（MK64FX）Cortex-M4</li>
+      <li>采用板级Arm+FPGA架构</li>
+      <li>兼容本科教学及研究生学习Soc之前的（Arm+FPGA）架构的认知</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="基于python的爬虫大四研一">基于python的爬虫（大四~研一）</h3>
+
+<ul>
+  <li>仓库链接（包含隐私数据，私有权限）</li>
+</ul>
+
+<h4 id="功能">功能</h4>
+<ul>
+  <li>随机爬喜马拉雅音频资源，解析下载其中的音乐
+    <ul>
+      <li>喜马拉雅资源是不加密的</li>
+    </ul>
+  </li>
+  <li>爬好友QQ空间
+    <ul>
+      <li>下载全部说说</li>
+      <li>下载全部可访问相册照片</li>
+    </ul>
+  </li>
+  <li>爬取教务处半公开保研数据
+    <ul>
+      <li>这个项目做得略出格，为了给后面的学弟提供当年保研公示的数据</li>
+      <li>教务处会校内网公开所有保研学生的获奖加分情况，不提供批量下载</li>
+      <li>脚本化方式批量将全校保研加分情况下载下来分析</li>
+    </ul>
+  </li>
+  <li>爬取百度FM的音乐
+    <ul>
+      <li>参考<a href="https://github.com/whutddk/iRhythm">iRhythm项目</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<hr />
+<hr />
+
+<h3 id="基于zynq-7000的伺服控制系统本科毕业设计">基于zynq-7000的伺服控制系统（本科毕业设计）</h3>
+<ul>
+  <li>使用zedborad（Cortex-A9(Arm) + Artix-7（FPGA））控制永磁同步电机（PMSM）</li>
+  <li>使用Vivado HLS高层次综合技术完成Park Clark变换</li>
+  <li>手动写状态机，verilog实现I2C协议电流采样芯片的驱动IP</li>
+  <li>效果
+    <ul>
+      <li>可以控制PMSM旋转，粗略调速</li>
+    </ul>
+  </li>
+  <li>局限
+    <ul>
+      <li>项目提出的逻辑错误：是为了学习软硬件协同设计而控制PMSM，不符合根据需求选解决方案的项目逻辑</li>
+      <li>当时对这类设计方法没有经验：HLS的使用仅仅是因为当时不会写变换的ip，没有正确地时序控制，或者说当时就没这个概念</li>
+      <li>对PMSM控制，对电流环的控制都没有经验，控制周期不对，采样芯片选型失败，控制指标惨不忍睹</li>
+    </ul>
+  </li>
+  <li>突破
+    <ul>
+      <li>第一次FPGA设计类的项目尝试</li>
+      <li>接触了电流环，知道了厉害，成功引导后面学弟比赛不再采坑</li>
+      <li>尝试了一直没机会碰过的PCB隔离，三相MOS驱动</li>
+    </ul>
+  </li>
+  <li>结果
+    <ul>
+      <li>答辩勉强拿到优秀</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="图片">图片</h4>
+
+<p><img src="https://github.com/whutddk/My-WUT/blob/master/毕业设计/doc/微信图片_2019013122002213.jpg" alt="系统图" /></p>
+
+<h4 id="视频">视频</h4>
+<p><a href="https://github.com/whutddk/My-WUT/blob/master/毕业设计/doc/trimed_1488445829179.mp4">视频</a></p>
+
+<hr />
+
+<h3 id="资产管理大四下"><a href="https://github.com/whutddk/wimc">资产管理（大四下）</a></h3>
+
+<ul>
+  <li><a href="https://github.com/whutddk/wimc">仓库链接</a></li>
+  <li>需求
+    <ol>
+      <li>实验室太多：鉴湖，汽院，自动化15楼，寝室，家。</li>
+      <li>东西太多：开发板n个，显示器n个，教程n堆。。。。。。</li>
+      <li>自己带的学弟神经大条：</li>
+    </ol>
+    <ul>
+      <li>第一学期：拿了我的板子</li>
+      <li>第二学期：”学长，板子不在我这”</li>
+      <li>第三学期：”学长的板子我找到了。。。”
+        <ol>
+          <li>要搬家到华科了</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>所以我急需一套管理系统，来确定我的东西都到哪去了，二维码管理，自动查找最好了。</p>
+  </li>
+  <li>
+    <p>当然，这个项目如果换到现在来做，就不会用这种方法了。</p>
+  </li>
+  <li>基于C++ 的opencv快速建立</li>
+  <li>基于surface平板及其摄像头进行部署</li>
+  <li>通过zbar插件识别二维码</li>
+  <li>尝试安卓部署失败</li>
+  <li>暂时没有采用数据库</li>
+  <li>通过git作为数据同步</li>
+</ul>
+
+<hr />
+
+<h3 id="smatg大四上"><a href="https://github.com/whutddk/smatg">SMATG（大四上）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/smatg">仓库链接</a></li>
+  <li>自己想的AR智能眼镜项目</li>
+  <li>技术关键词
+    <ul>
+      <li>opencv:人脸检测，人脸识别</li>
+      <li>respriberry Pi</li>
+      <li>AR</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="2016年恩智浦杯全国大学生智能汽车大赛大三"><a href="https://github.com/whutddk/2016_nxp_chenfeng">2016年恩智浦杯全国大学生智能汽车大赛（大三）</a></h3>
+
+<ul>
+  <li><a href="https://github.com/whutddk/2016_nxp_chenfeng">仓库链接</a></li>
+  <li>有了前一年参赛的经验，更有了资金和赛道，一切就变得特别顺利</li>
+  <li>加入汽车学院参加比赛</li>
+  <li>参与其中的电轨竞速组和电轨节能组，拿下两个全国一等奖
+    <ul>
+      <li>电轨竞速组负责：电路；代码工程搭建、验证、规范化；控制算法搭建、验证；传感器解决方案</li>
+      <li>电轨节能组负责：电路；取电方案</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="背景">背景</h3>
+<ul>
+  <li>2016是比赛的改革年，出现了很多新组别（电轨，信标，双车超车）</li>
+  <li>我们参与的电轨组组别太新，规则摇摆不定
+    <ul>
+      <li>是否取电</li>
+      <li>传感器方案</li>
+    </ul>
+  </li>
+  <li>赛初即做了取电解决方案，后来该方案移动至创意组。鉴于我校从来没有队伍参与创意（不知道保研政策），我们决定第一年试水创意，将创意作为备份组。</li>
+</ul>
+
+<h3 id="过程">过程</h3>
+<ul>
+  <li>这个组难点在传感器方案，官方给出的传统三点震荡方案很早进行了验证，距离太短。参考TI，LDC系列传感器，把所有手册看了一遍，发现LDC1614和LDC1314的方案最合适，评估版价格相同，选择精度更高的LDC1614。</li>
+  <li>区别于电磁，金属传感器只能看见线圈下面的赛道情况，没有电磁波传播的扩展，所以视角相对较小。前瞻约长，视角越小，越容易发散。</li>
+  <li>双线圈方案与三线圈方案
+    <ul>
+      <li>传感器非线性问题非常严重，这一年探讨了非常多拟合线性化方案</li>
+      <li>因为双线圈拟合有对称问题，改用三线圈拟合</li>
+    </ul>
+  </li>
+  <li>控制
+    <ul>
+      <li>舵机控制
+        <ul>
+          <li>简单三参数PD</li>
+          <li>因为队友机械能力很强，机械上大量非线性问题都解决了，简单的PID方向控制即可取得非常好的效果</li>
+        </ul>
+      </li>
+      <li>电机调速
+        <ul>
+          <li>增量式PI</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>算法
+    <ul>
+      <li>探讨过模糊控制并进行验证，因为风险较大，后面放弃使用</li>
+      <li>后面采用简单PID加BNAG-BANG法进行控制</li>
+    </ul>
+  </li>
+  <li>总结：如果要我总结智能车赛的三个要点
+    <ul>
+      <li>全程参数线性化
+        <ul>
+          <li>无论是修理机械，调整传感器，PID分段等，全程讨论的是线性控制，将非线性环节用各种手段处理掉，调参就很简单了</li>
+        </ul>
+      </li>
+      <li>保证控制实时性
+        <ul>
+          <li>使用Cortex-M4处理器，核心解算拟合函数，DSP也没开，其实我们组的控制实时裕量还是很足的，当然我自己也是验证过的。</li>
+          <li>电流环，我反对让学弟搞，主要是实时性难以保证，而学弟意识不到这个问题</li>
+        </ul>
+      </li>
+      <li>构造合适实验验证问题
+        <ul>
+          <li>静电干扰复位原因</li>
+          <li>起跑线干簧管误触发原因</li>
+          <li>LDC1614复位原因</li>
+          <li>电机Bang-Bang控制对传感器，电路板的冲击</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="照片">照片</h4>
+<p><img src="https://github.com/whutddk/2016_NXP_ChenFeng/blob/master/pic/IMG_20160820_100030.jpg" alt="1" />
+<img src="https://github.com/whutddk/2016_NXP_ChenFeng/blob/master/pic/微信图片_2019013122002214.jpg" alt="2" />
+<img src="https://github.com/whutddk/2016_NXP_ChenFeng/blob/master/pic/P60820-124719.jpg" alt="合照" /></p>
+
+<h4 id="video">Video</h4>
+<ul>
+  <li><a href="https://v.youku.com/v_show/id_XMTY0ODY4NTUyOA==.html?spm=a2hfx.9903432.collectVideo.5~5~5~1!2~3~A">省赛（华南赛）预赛</a></li>
+  <li><a href="https://v.youku.com/v_show/id_XMTY0OTQxNjM4NA==.html?spm=a2hfx.9903432.collectVideo.5~5!2~5~1!2~3~A">省赛（华南赛）决赛</a></li>
+  <li><a href="http://v.youku.com/v_show/id_XMzc4NzQyMTY5Ng==.html?spm=a2h3j.8428770.3416059.1">国赛决赛第二次成功</a></li>
+  <li><a href="https://v.youku.com/v_show/id_XMTY5MTkyMTg3Ng==.html?spm=a2hfx.9903432.collectVideo.5~5!3~5~1!2~3~A">国赛决赛第二视角</a></li>
+</ul>
+
+<h4 id="contributors-1">Contributors</h4>
+
+<ul>
+  <li>电轨竞速组
+    <ul>
+      <li>Yansong Zhang</li>
+      <li>Jiawei Yuan</li>
+      <li>Ruige Lee</li>
+    </ul>
+  </li>
+  <li>电轨节能组
+    <ul>
+      <li>Ruige Lee</li>
+      <li>Yansong Zhang</li>
+      <li>Cong Chen</li>
+      <li>Song Feng（学弟）</li>
+      <li>Rong Huang（学弟）</li>
+      <li>Jiawei Yuan</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="2016电子设计省赛">2016电子设计省赛</h3>
+
+<ul>
+  <li>2016是省赛年，做满也是省特，而且省特限制名额，所以没有那么重视</li>
+  <li>将自己的中心放在智能车赛上</li>
+  <li>省赛的重点为，保稳定，带学弟，保证学弟能保研</li>
+  <li>获得控制组省一</li>
+</ul>
+
+<h4 id="内容">内容</h4>
+<ul>
+  <li>PSP嵌入式上位机解决方案
+    <ul>
+      <li><a href="https://github.com/whutddk/beacon-PSP">仓库链接</a></li>
+    </ul>
+  </li>
+  <li>倒立摆
+    <ul>
+      <li>理论指导下的二刷</li>
+    </ul>
+  </li>
+  <li>TM4C123解决方案
+    <ul>
+      <li><a href="https://github.com/whutddk/2016TiCupTM4/tree/master">仓库链接</a></li>
+    </ul>
+  </li>
+  <li>直流电机对拖系统
+    <ul>
+      <li>相关内容体现在2016-NXP智能车赛-节能指标组的技术报告中</li>
+      <li>对电机理论知识的实践</li>
+      <li>做了第一个论证性实验，后续实验和数据由Jialong学弟代做</li>
+    </ul>
+  </li>
+  <li>samba 实验室服务器
+    <ul>
+      <li>鉴湖实验室需要传承，学长们毕业了，但留下的资料要共享</li>
+      <li>Linux课也上得差不多了，树莓派已经会一点了</li>
+      <li>搭个文件服务器呗，把资料放树莓派里，公开局域网，登陆密码</li>
+      <li>学弟们自己取学长们的资料</li>
+      <li>意外
+        <ul>
+          <li>在智能车省赛回来的路上，爽姐惊呼，我的资料都传到外面群里去了！！！是不是有人把资料挂论坛换积分</li>
+          <li>不知道谁干的，项目中止。。。</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>水温控制系统模糊控制（校初赛）</li>
+  <li>平板控制系统（校复赛）
+    <ul>
+      <li>尝试了直流伺服和步进电机两个方案</li>
+    </ul>
+  </li>
+  <li>基于LDC1314的金属丝引导电动车（省赛）</li>
+</ul>
+
+<h4 id="图片-1">图片</h4>
+<p><img src="https://github.com/whutddk/My-WUT/blob/master/2016电子设计省赛/doc/mmexport1501921922721.jpg" alt="合照" />
+<img src="https://github.com/whutddk/My-WUT/blob/master/2016电子设计省赛/doc/DJI_0159.JPG" alt="大四那年暑假观战两学弟的智能车赛" /></p>
+
+<h4 id="contributors-2">Contributors</h4>
+<ul>
+  <li>Ruige Lee</li>
+  <li>Rong Huang（学弟）</li>
+  <li>Jialong Wang（学弟）</li>
+</ul>
+
+<hr />
+
+<h3 id="2015-全国大学生电子设计大赛-大二">2015 全国大学生电子设计大赛 （大二）</h3>
+
+<ul>
+  <li>比赛题目是<a href="https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/风力摆控制系统(B题).pdf">风力摆控制系统</a></li>
+  <li>赛前一年进行了大量的赛题练习
+    <ul>
+      <li>旋转倒立摆控制（13年国赛题）</li>
+      <li>四旋翼控制（14年湖北省赛题）</li>
+      <li>电动车跷跷板（07年国赛题）</li>
+      <li>悬挂系统（05年国赛题）</li>
+      <li>激光打靶（12年省赛题）</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="总结">总结</h4>
+<ul>
+  <li>这是我在鉴湖实验室付出最多，却打得最惨烈的比赛
+    <ul>
+      <li>6月放弃考试复习月，进驻鉴湖考试总攻</li>
+      <li>得到实验室研究生学长们的大力支持</li>
+      <li>得到了学院老师的支持</li>
+      <li>个人投入1W多的比赛经费</li>
+      <li>最终交付了一个振荡的系统，勉强获得省二</li>
+      <li>没脸回实验室了</li>
+    </ul>
+  </li>
+  <li>原因
+    <ul>
+      <li>团队配合完全失效，只有我个人的输出</li>
+      <li>自己太过自负，以为真的可以个人单刷电赛</li>
+      <li>大二水平有限，没有一系列理论指导，瞎调参，却不知道怎么调</li>
+    </ul>
+  </li>
+  <li>收获
+    <ul>
+      <li>虽然打得惨烈，但守住了省二这个保研最低限，为大三的发展做好后盾。心中不慌了。</li>
+      <li>后续比赛开始重视团战</li>
+      <li>几乎把所有调参方法都实验了，加上大三开始上控制理论，后续比赛的理论指导体系得以建立</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="图片-2">图片</h4>
+
+<p><img src="https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/倒立摆/mmexport1465474197571.jpg" alt="倒立摆" />
+<img src="https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/四旋翼/7e0edf155bd21f120afb0397ff8248d6e01761bc.jpg" alt="四旋翼" />
+<img src="https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/激光打靶/微信图片_2019013121595724.jpg" alt="激光打靶" />
+<img src="https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/风力摆/bf55f16d7ba4039cdfdbb038c446ddf1.mp4" alt="风力摆原型" /></p>
+
+<h4 id="contributors-3">Contributors</h4>
+
+<ul>
+  <li>Jinpeng Han （学长）</li>
+  <li>Fuwen Su （学姐）</li>
+  <li>Ruige Lee</li>
+</ul>
+
+<hr />
+
+<h3 id="天际2015大二飞思卡尔智能车"><a href="https://github.com/whutddk/TJ2015">天际2015（大二飞思卡尔智能车）</a></h3>
+
+<ul>
+  <li>
+    <p><a href="https://github.com/whutddk/TJ2015">仓库链接</a></p>
+  </li>
+  <li>最早介入保研相关比赛是飞思卡尔智能车</li>
+  <li>从大一下期末开始跟着蓝宙的淘宝店，买板子，跑例程</li>
+  <li>觉得自己不适合搞光学组
+    <ul>
+      <li>学长说光学被干扰很严重</li>
+      <li>实力很强的学长都在摄像头组</li>
+      <li>那年赛道改革，不用KT板，改用PVC，没有钱买标准赛道，电磁比较容易。。。</li>
+    </ul>
+  </li>
+  <li>参加电磁双车组，基于鉴湖实验室的平台
+    <ul>
+      <li>情况有多惨，鉴湖612的地板，贴的胶带痕迹就是当年的调车赛道</li>
+      <li>大二水平有限，被学长实力碾压，止步校赛</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="图片-3">图片</h4>
+
+<ul>
+  <li>当时的调车赛道
+    <ul>
+      <li><img src="https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_201901312200229.jpg" alt="当时的调车赛道" /></li>
+    </ul>
+  </li>
+  <li>原型设计
+    <ul>
+      <li><img src="https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_2019013121595710.jpg" alt="原型设计" /></li>
+    </ul>
+  </li>
+  <li>赛前版本
+    <ul>
+      <li><img src="https://github.com/whutddk/TJ2015/blob/master/pic/微信图片_2019013121595728.jpg" alt="赛前版本" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="contributors-4">Contributors</h4>
+<ul>
+  <li>Ruige Lee</li>
+  <li>Jialong Wang (学弟)</li>
+  <li>Fuping Wang</li>
+  <li>Guangpeng Li</li>
+</ul>
+
+<hr />
+
+<h3 id="自动化学院流水灯大赛大一下"><a href="https://github.com/whutddk/LED256">自动化学院流水灯大赛（大一下）</a></h3>
+<ul>
+  <li><a href="https://github.com/whutddk/LED256">仓库链接</a></li>
+  <li>大一下学期，学院、科协举办第一届流水灯大赛（搞了两年觉得太简单，就不搞流水灯改搞循迹车了（初级赛））</li>
+</ul>
+
+<h4 id="全彩点阵第二名">全彩点阵(第二名)</h4>
+<ul>
+  <li>
+    <p>当时比赛时学长指出，这是真彩，不是全彩</p>
+  </li>
+  <li>拼命榨干了51单片机的资源，虽已经历很多全国赛事，至今很为这段代码骄傲。</li>
+  <li>方案
+    <ul>
+      <li>颜色控制
+        <ul>
+          <li>使用三色雾状灯帽LED，共阴引脚。</li>
+          <li>当时pwm控制颜色的技术不是很成熟，也尝试过了，最终采用I2C控制下的DAC（<strong><em>TLC5620）</em></strong>控制颜色的方案：将64个灯的红色阳极接在一起，接到DAC的<em>chn0</em>；将64个灯的绿色阳极接在一起，接到DAC的<em>chn1</em>；将64个灯的蓝色阳极接在一起，接到DAC的<em>chn2</em></li>
+          <li>通过控制DAC的输出电压，分别控制每个灯的颜色。</li>
+        </ul>
+      </li>
+      <li>图案控制
+        <ul>
+          <li>扫描技术</li>
+          <li>使用多个译码器（74hc138，74HC154）组合后逐个扫描64个灯的阴极。</li>
+          <li>当时申请芯片搞到TI拉黑我校。。。</li>
+        </ul>
+      </li>
+      <li>控制
+        <ul>
+          <li>51单片机，原型验证用的是STC89C52，后面ROM，速度告急，在宏晶官网找了一款引脚完全兼容，，节拍更快的型号换上去，把晶振速度换大。</li>
+          <li>多个定时器和延时调度
+            <ul>
+              <li>无源蜂鸣器播放音乐</li>
+              <li>刷新颜色，消隐</li>
+              <li>保持图片，换图</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>刷图大致流程
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   for (imageCnt = 0 ;imageCnt &lt; ? ;imageCnt ++):
+         for (imageDelayCnt = 0;imageDelayCnt &lt; ? ; imageDelayCnt ++ ):     
+             for ( lightCnt = 0 ; lightCnt &lt; 64; lightCnt ++ ):     
+                 decoder select (lightCnt)  
+                 DAC set color (red,green,blue)                   
+                 __nop__(3);          
+                 DAC set color (0,0,0)
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="contributors-5">Contributors</h4>
+<ul>
+  <li>Xiangjie Wu</li>
+  <li>Songhuan Huang</li>
+  <li>Wentao Sun</li>
+  <li>Ruige Lee</li>
+</ul>
+
+<h4 id="风火轮第一名">风火轮（第一名）</h4>
+<ul>
+  <li>做完摇摇棒，就想到了把摇摇棒安装在自行车的车轮上，网上搜，还真有</li>
+  <li>采用霍尔传感器，需要在车轮上贴一个磁铁标记起始位置</li>
+  <li>
+    <p>每次检测到磁铁后，开始刷图案</p>
+  </li>
+  <li><a href="http://www.wanfangdata.com.cn/details/detail.do?_type=patent&amp;id=CN201620157427.7">申请了实用新型专利</a></li>
+</ul>
+
+<h4 id="contributors-6">Contributors</h4>
+<ul>
+  <li>Pu Liu</li>
+  <li>Zong Yang</li>
+  <li>Ruige Lee</li>
+</ul>
+
+<h4 id="图片-4">图片</h4>
+<ul>
+  <li>风火轮原型
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595610.jpg" alt="风火轮原型" /></li>
+    </ul>
+  </li>
+  <li>风火轮成品
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/IMG_20140502_124040.jpg" alt="风火轮成品" /></li>
+    </ul>
+  </li>
+  <li>风火轮效果
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/IMG_20140207_230420_SHOT2SHOT20.jpg" alt="风火轮效果" /></li>
+    </ul>
+  </li>
+  <li>真彩点阵原型
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595616.jpg" alt="真彩点阵原型" /></li>
+    </ul>
+  </li>
+  <li>真彩点阵成品
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/微信图片_2019013121595619.jpg" alt="真彩点阵成品" /></li>
+    </ul>
+  </li>
+  <li>真彩点阵效果
+    <ul>
+      <li><img src="https://github.com/whutddk/LED256/blob/master/pic/2014_10_11_22_08_57.jpg" alt="真彩点阵效果" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="视频-1">视频</h4>
+<ul>
+  <li>请参考作品视频链接，视频看起来不那么鲜艳</li>
+  <li><a href="https://v.qq.com/x/page/k0127j38gix.html?">风火轮原型版本</a></li>
+  <li><a href="https://v.youku.com/v_show/id_XMzc3ODE3ODQxNg==.html?spm=a2hzp.8244740.0.0">风火轮比赛版本</a></li>
+  <li><a href="http://v.youku.com/v_show/id_XMzc3ODE3NDk5Mg==.html?spm=a2h3j.8428770.3416059.1">真彩点阵</a></li>
+</ul>
+
+<hr />
+
+<h3 id="一些项目的探索大一上">一些项目的探索（大一上）</h3>
+
+<ul>
+  <li>会了点51，总得要搞点什么
+    <ul>
+      <li>迷你通用版51最小系统
+        <ul>
+          <li><img src="https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/IMG_20131205_172044.jpg" alt="迷你通用版51最小系统" /></li>
+        </ul>
+      </li>
+      <li>摇摇棒
+        <ul>
+          <li><img src="https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/IMG_20131205_172146.jpg" alt="摇摇棒" /></li>
+        </ul>
+      </li>
+      <li>自动巡线小车
+        <ul>
+          <li><img src="https://github.com/whutddk/My-WUT/tree/master/一些项目的探索（大一上）/微信图片_201901312159566.jpg" alt="自动巡线小车" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h3 id="我的第一块51单片机大一上">我的第一块51单片机（大一上）</h3>
+
+<ul>
+  <li>武汉理工大学真的是一个很适合学习的地方，刚刚军训完，各种科技类社团，实验室宣传。</li>
+  <li>导员支持我们在寝室偷偷焊电路板，然后新建好的寝室还没通网，当时手机流量包一个月50M(QAQ)又溜到图书馆机房写代码，背着电脑去教学楼蹭wifi装环境。现在想想，我们鉴湖这批13级的，真的是艰苦环境出来的。</li>
+  <li>在机器人协会学长们的帮助下，大一的10月底11月初，我完成了自己的第一块51单片机</li>
+  <li>从0到1的突破，虽然焊得很差。</li>
+</ul>
+
+<h4 id="视频-2">视频</h4>
+<p><a href="https://v.youku.com/v_show/id_XMzc3ODM0OTkzMg==.html?spm=a2hzp.8244740.0.0">我的第一块单片机</a></p>
+
+<h4 id="图片-5">图片</h4>
+<p><img src="https://github.com/whutddk/My-WUT/blob/master/我的第一块单片机/IMG_20131109_102205.jpg" alt="我的第一块单片机" /></p>
+
+<hr />
+<h3 id="大学以前">大学以前</h3>
+
+<ul>
+  <li><a href="https://github.com/whutddk/myVB">基于Visual Basic的一些软件开发</a></li>
+  <li>主要涉及
+    <ul>
+      <li>简单的游戏算法</li>
+      <li>基于winsock的TCP/UDP通信</li>
+      <li>windows一些系统API的调用等</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<p>You can use the <a href="https://github.com/whutddk/whutddk.github.io/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
+
+<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
+
+<h3 id="markdown">Markdown</h3>
+
+<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax highlighted code block
+
+<span class="gh"># Header 1</span>
+<span class="gu">## Header 2</span>
+<span class="gu">### Header 3</span>
+<span class="p">
+-</span> Bulleted
+<span class="p">-</span> List
+<span class="p">
+1.</span> Numbered
+<span class="p">2.</span> List
+
+<span class="gs">**Bold**</span> and _Italic_ and <span class="sb">`Code`</span> text
+
+<span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">url</span><span class="p">)</span> and !<span class="p">[</span><span class="nv">Image</span><span class="p">](</span><span class="sx">src</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
+
+<h3 id="jekyll-themes">Jekyll Themes</h3>
+
+<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/whutddk/whutddk.github.io/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code class="highlighter-rouge">_config.yml</code> configuration file.</p>
+
+<h3 id="support-or-contact">Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>

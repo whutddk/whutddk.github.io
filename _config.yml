@@ -1,1 +1,40 @@
-theme: jekyll-theme-hacker
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: 
+google_analytics: Ruige Lee
+title: Ruige Lee
+
+defaults:
+  -
+    scope: 
+      path: "" # empty string for all files
+    values:
+      title: Ruige Lee's Page
+
+description: Stylish Jekyll Theme
+author: 
+  name: Ruige Lee
+  email: m201772520@hust.edu.cn
+  github: whutddk
+  twitter: 
+  pinterest: 
+  linkedin: 
+  bio: 
+  email_md5: 77d28e9e13dda12ad6dca04d2bd9c4f0
+
+rss_path: 
+categories_path: categories.html
+tags_path: 
+
+# set it as url of an image
+sidebar_background_image: 
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate
