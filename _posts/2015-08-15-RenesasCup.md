@@ -27,7 +27,6 @@ comments: false
     - 得到了学院老师的支持
     - 个人投入1W多的比赛经费
     - 最终交付了一个振荡的系统，勉强获得省二
-    - 没脸回实验室了
 * 原因
     - 团队配合完全失效，只有我个人的输出
     - 自己太过自负，以为真的可以个人单刷电赛
@@ -39,10 +38,10 @@ comments: false
 
 #### 图片
 
-![倒立摆](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/倒立摆/mmexport1465474197571.jpg)
-![四旋翼](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/四旋翼/7e0edf155bd21f120afb0397ff8248d6e01761bc.jpg)
-![激光打靶](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/激光打靶/微信图片_2019013121595724.jpg)
-![风力摆原型](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/风力摆/bf55f16d7ba4039cdfdbb038c446ddf1.mp4)
+![倒立摆]({{ site.url }}/assets/user/pic/倒立摆/mmexport1465474197571.jpg)
+![四旋翼]({{ site.url }}/assets/user/pic/四旋翼/7e0edf155bd21f120afb0397ff8248d6e01761bc.jpg)
+![激光打靶]({{ site.url }}/assets/user/pic/激光打靶/微信图片_2019013121595724.jpg)
+![风力摆原型]({{ site.url }}/assets/user/pic/风力摆/bf55f16d7ba4039cdfdbb038c446ddf1.mp4)
 
 #### Contributors
 
