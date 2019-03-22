@@ -17,9 +17,10 @@ comments: false
     - 协同设计
     - 实时避障
 * [**参考主仓库链接**](https://github.com/whutddk/PRM_robotic_arm)
+
 excerpt_separator
 
-* [****主仓库链接***](https://github.com/whutddk/PRM_robotic_arm)
+* [***主仓库链接***](https://github.com/whutddk/PRM_robotic_arm)
 * 子仓库链接参考主仓库master提交
 * 保密问题，暂时为私有仓库
 
