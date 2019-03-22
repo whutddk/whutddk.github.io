@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2015 全国大学生电子设计大赛 （大二）
+title: 2015 全国大学生电子设计大赛
 categories: [大二]
 tags: [RenesasCup]
 fullview: false
@@ -8,7 +8,9 @@ comments: false
 ---
 
 
+* 大二全国大学生电子设计竞赛
 
+<!-- more -->
 
 * 比赛题目是[风力摆控制系统](https://github.com/whutddk/My-WUT/blob/master/2015电子设计国赛/doc/风力摆控制系统(B题).pdf)
 * 赛前一年进行了大量的赛题练习
