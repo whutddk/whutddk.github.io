@@ -39,4 +39,4 @@ BASE_PATH:
 plugins:
   - jekyll-paginate
 
-excerpt_separator: <!-- more -->
+excerpt_separator: '<!-- more -->'
