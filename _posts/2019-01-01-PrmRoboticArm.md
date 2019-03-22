@@ -16,7 +16,7 @@ comments: false
     - 机械臂的控制IP
     - 协同设计
     - 实时避障
-* [<font color=#00ffff> 参考主仓库链接</font>](https://github.com/whutddk/PRM_robotic_arm)
+* [<font color=#00ffff>参考主仓库链接</font>](https://github.com/whutddk/PRM_robotic_arm)
 
 excerpt_separator
 
