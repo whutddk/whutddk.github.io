@@ -16,6 +16,7 @@ comments: false
     - 机械臂的控制IP
     - 协同设计
     - 实时避障
+* [科技论文1：FPGA-based Design and Implementation of Real-time Robot Motion Planning](https://ieeexplore.ieee.org/document/8836825)
 * [**参考主仓库链接**](https://github.com/whutddk/PRM_robotic_arm)
 * 子仓库链接参考主仓库master提交
 <!-- more -->
