@@ -23,5 +23,6 @@ comments: false
 
 #### 图片
 ![外观图]({{ site.url }}/assets/user/pic/PRMRA/IMG_20181019_161128.jpg)
-
-
+![双机械臂平台和仿真系统]({{ site.url }}/assets/user/pic/PRMRA/System.png)
+![简单避障（传送带）示意]({{ site.url }}/assets/user/pic/PRMRA/obstacle_collide.gif)
+![两种HW/SW Co-deisgn加速方案示意]({{ site.url }}/assets/user/pic/PRMRA/IPorISA.png)
